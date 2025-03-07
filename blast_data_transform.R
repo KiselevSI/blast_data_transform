@@ -21,7 +21,6 @@ library(tidyr)
 
 
 
-#setwd('/data5/bio/MolGenMicro/blast-ncbi-ripcm-regions')
 
 # Чтение таблицы из файла "n10-results.txt"
 df <- read.table("input.txt", header = FALSE, stringsAsFactors = FALSE)
